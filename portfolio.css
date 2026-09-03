@@ -1,11 +1,30 @@
-body {
-    font-family: Arial, sans-serif;
+
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+/* Navigation */
+
 header {
-    padding: 20px;
+    background-color: #1f2937;
+    color: white;
+    padding: 20px 10%;
+    position: sticky;
+    top: 0;
 }
 
 nav {
@@ -14,23 +33,138 @@ nav {
     align-items: center;
 }
 
+nav h1 {
+    font-size: 24px;
+}
+
 nav ul {
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: 25px;
 }
 
 nav a {
+    color: white;
     text-decoration: none;
 }
 
-section {
-    padding: 60px 10%;
+nav a:hover {
+    text-decoration: underline;
 }
+
+
+/* General Sections */
+
+section {
+    padding: 80px 10%;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+
+/* Home */
+
+#home {
+    min-height: 80vh;
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#home h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#home p {
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+#home a {
+    display: inline-block;
+    width: fit-content;
+
+    background-color: #2563eb;
+    color: white;
+
+    padding: 12px 20px;
+    border-radius: 5px;
+
+    text-decoration: none;
+}
+
+#home a:hover {
+    background-color: #1d4ed8;
+}
+
+
+/* About */
+
+#about {
+    background-color: #f4f4f4;
+}
+
+
+/* Skills */
+
+#skills ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    list-style: none;
+    gap: 15px;
+}
+
+#skills li {
+    background-color: white;
+
+    padding: 12px 20px;
+
+    border-radius: 5px;
+}
+
+
+/* Projects */
+
+#projects {
+    background-color: white;
+}
+
+#projects article {
+    background-color: #f4f4f4;
+
+    padding: 25px;
+
+    margin-top: 20px;
+
+    border-radius: 8px;
+}
+
+#projects h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Contact */
+
+#contact {
+    text-align: center;
+}
+
+
+/* Footer */
 
 footer {
+    background-color: #1f2937;
+    color: white;
+
     text-align: center;
-    padding: 20px;
+
+    padding: 25px;
 }
 
-    
