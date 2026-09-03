@@ -168,3 +168,42 @@ footer {
     padding: 25px;
 }
 
+
+/* Visual Enhancements */
+
+#skills li {
+    transition: transform 0.3s ease;
+}
+
+#skills li:hover {
+    transform: translateY(-5px);
+}
+
+#projects article {
+    transition: transform 0.3s ease;
+}
+
+#projects article:hover {
+    transform: translateY(-5px);
+}
+
+.social-links {
+    margin-top: 25px;
+}
+
+.social-links a {
+    display: inline-block;
+
+    margin: 10px;
+
+    color: #2563eb;
+
+    text-decoration: none;
+
+    font-size: 18px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
