@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Score Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>University of Calabar</h1>
+    <p>Faculty of Computing | Department of Computer Science</p>
+  </header>
+
+  <main>
+    <h2>Student Result Sheet</h2>
+
+    <div class="table-box">
+      <table>
+        <thead>
+          <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>CA 1 /10</th>
+            <th>CA 2 /10</th>
+            <th>CA 3 /10</th>
+            <th>Exam /70</th>
+            <th>Total /100</th>
+            <th>Grade</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td><td>Student 1</td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="70"></td>
+            <td class="total">-</td>
+            <td class="grade">-</td>
+          </tr>
+          <tr>
+            <td>2</td><td>Student 2</td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="70"></td>
+            <td class="total">-</td>
+            <td class="grade">-</td>
+          </tr>
+          <tr>
+            <td>3</td><td>Student 3</td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="70"></td>
+            <td class="total">-</td>
+            <td class="grade">-</td>
+          </tr>
+          <tr>
+            <td>4</td><td>Student 4</td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="70"></td>
+            <td class="total">-</td>
+            <td class="grade">-</td>
+          </tr>
+          <tr>
+            <td>5</td><td>Student 5</td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="10"></td>
+            <td><input type="number" min="0" max="70"></td>
+            <td class="total">-</td>
+            <td class="grade">-</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>Grade Description</h2>
+    <div class="grades">
+      <div><b>A</b> Excellent (70 - 100)</div>
+      <div><b>B</b> Very Good (60 - 69)</div>
+      <div><b>C</b> Good (50 - 59)</div>
+      <div><b>D</b> Fair (45 - 49)</div>
+      <div><b>E</b> Pass (40 - 44)</div>
+      <div><b>F</b> Fail (0 - 39)</div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
